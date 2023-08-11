@@ -1,0 +1,38 @@
+.informacion2 {
+    margin-left: 10rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.informacion2 input[type="radio"] {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.informacion2 button{
+    margin: 1rem;
+    background-color: transparent;
+    border: 3px solid #c9f8ff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.informacion2 button:hover{
+    margin: 1rem;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.resultados {
+    background-color: #AEF2A5;
+    margin-left: 10.5rem;
+    padding: 1.5rem;
+    width: 30%;
+}
+
+.resultados .info, .info2 {
+    font-family: 'Montserrat', sans-serif;
+}
+

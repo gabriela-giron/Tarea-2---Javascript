@@ -1,0 +1,42 @@
+* {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.header {
+    margin-top: 3rem;
+    margin-left: 10rem;
+    padding: 1rem;
+}
+
+.header img{
+    max-width: 10%;
+    height: auto;
+}
+
+h3, h4{
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.informacion{
+    margin-left: 10rem;
+}
+
+.informacion ul li{
+    list-style: none;
+    margin: 1.5rem;
+}
+
+.informacion ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    transition: 0.5s;
+}
+
+.informacion ul li a:hover{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #c9f8ff;
+    transition: 0.5s;
+}
