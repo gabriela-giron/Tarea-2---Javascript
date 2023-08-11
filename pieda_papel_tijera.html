@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Piedra Papel o Tijera</title>
+</head>
+<body>
+    <div class="header">
+        <img src="img/icono_ppt.jpg" alt="water watercolor">
+        <h1>¡Piedra Papel o Tijera!</h1>
+        <h3>Keren Rodríguez</h3>
+        <h4>Carnet: 0900-20-18717</h4>
+    </div>
+
+    <div class="informacion2">
+        <h4>¡Elije alguna de las opciones para jugar!</h4>
+        <input type="radio" name="objeto" value="0">Piedra
+        <input type="radio" name="objeto" value="1">Papel
+        <input type="radio" name="objeto" value="2">Tijera
+        <br>
+        <button type="button" onclick="Jugador1()">Jugar</button>
+    </div>
+
+    <script src="programas/piedra_papel_tijera.js"></script>
+
+    <div class="resultados">
+        <h1 class="resultado"></h1>
+        <p class="info"></p>
+        <h1 class="resultado1"></h1>
+        <p class="info2"></p>
+        <h1 class="ganador"></h1>
+    </div>
+    
+</body>
+</html>
